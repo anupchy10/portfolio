@@ -1,0 +1,48 @@
+          <div ref={textSectionRef} className="order-2 lg:order-1 text-center lg:text-left">
+            <div className="mb-8">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  <Typewriter
+                    words={[
+                      "Hello, I'm Anup",
+                      "Full Stack Developer",
+                      "Software Engineer",
+                      "Open to Collaborate",
+                    ]}
+                    typingSpeed={100}
+                    deletingSpeed={40}
+                    pause={1400}
+                    className="inline-block"
+                  />
+                </span>
+              </h1>
+              <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-700 dark:text-gray-300 mb-6">
+                Full Stack Developer & Software Engineer
+              </h2>
+              <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
+                I craft exceptional digital experiences through clean code and
+                innovative solutions. Passionate about creating scalable
+                applications that make a difference.
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-12">
+              <a
+                href="#contact"
+                className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+              >
+                Get In Touch
+              </a>
+              <a
+                href="#projects"
+                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-400 dark:hover:text-gray-900 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              >
+                View My Work
+              </a>
+            </div>
+
+            {/* Animated scroll indicator - Only show on desktop */}
+            <div className="hidden lg:block animate-bounce">
+              <HiArrowDown className="h-6 w-6 text-gray-400 dark:text-gray-600" />
+            </div>
+          </div>

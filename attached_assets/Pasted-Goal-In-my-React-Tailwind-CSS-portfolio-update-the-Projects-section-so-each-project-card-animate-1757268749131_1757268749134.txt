@@ -1,0 +1,67 @@
+Goal: In my React + Tailwind CSS portfolio, update the Projects section so each project card animates **every time** it enters the viewport **200px inside** from the top or bottom, resets when it leaves, and uses a **staggered animation that reverses based on scroll direction** (scrolling down → top-to-bottom; scrolling up → bottom-to-top). Keep AOS for other sections (Hero/Skills/etc.) — **do not** use AOS for the project cards.
+
+Project layout & files:
+- The Projects component is at: `src/components/Projects.jsx`.
+- The app initializes AOS in: `src/App.jsx`. **Leave AOS init as-is** (AOS continues handling other sections).
+- Create a new custom hook file: `src/hooks/useStaggeredInView.js` (or .ts if project uses TypeScript).
+
+Requirements (exact behavior):
+1. Trigger rule: A project card must be considered "visible" only when it is **≥200px inside the viewport** (from top OR bottom). Use IntersectionObserver with `rootMargin: '-200px 0px -200px 0px'` and `threshold: 0` so the element only counts as intersecting when it is 200px inside the viewport.
+2. Every-time animation: When a card leaves the observed area, **reset** it so it can animate again on next entry. Do not make it a once-only animation.
+3. Initial hidden state: Cards must start hidden (e.g., `opacity-0` + slight translate like `translate-y-6`) so the entry animation is visible.
+4. Animate state: When visible, add classes (e.g., `opacity-100 translate-y-0 transition-all duration-700 ease-out`) so Tailwind handles the animation.
+5. Stagger + scroll direction:
+   - Listen to window scroll to determine direction (compare `window.scrollY` to the last value).
+   - When multiple cards become intersecting in the same frame, sort those entries by vertical position (`getBoundingClientRect().top`).
+   - If direction is `down`: sort ascending (top → bottom) and apply stagger delays (e.g., 80–140ms per index).
+   - If direction is `up`: sort descending (bottom → top) and apply stagger delays, so the bottom-visible cards animate first when scrolling up from below.
+   - Implement stagger by setting `element.style.transitionDelay = '${i * STAGGER}ms'` (inline delay is fine).
+6. Selection & hookup:
+   - Use a selector `.project-card` (or allow configurable selector) for the hook to observe each card.
+   - Attach the hook’s returned `ref` to the grid container in `Projects.jsx` (the element that wraps all cards), and add `className="project-card"` to each card element.
+   - **Remove any `data-aos`, `data-aos-delay`, or `data-aos-duration` attributes from the project cards** so AOS does not conflict with this hook.
+7. No new dependencies: Do not add external libraries. Use pure React, IntersectionObserver and Tailwind classes.
+8. Respect existing hover transform: The card already has `hover:-translate-y-2`. Ensure the entry/exit transforms coexist sensibly with hover by using translate-y classes that combine well with hover transforms (Tailwind handle precedence by class order).
+
+Files to change (explicit instructions):
+- `src/hooks/useStaggeredInView.js` — Create hook that:
+  - Accepts options: `selector`, `rootMargin`, `threshold`, `stagger`, `once` (default `once: false`).
+  - Sets initial hidden classes on targets (only if not already set).
+  - Uses IntersectionObserver with `rootMargin: '-200px 0px -200px 0px'` and `threshold: 0`.
+  - Tracks scroll direction (`window.addEventListener('scroll', ...)` passive).
+  - On intersection callback:
+    - Build arrays `entering` and `leaving`.
+    - Reset leaving elements by removing visible classes and adding hidden classes.
+    - Sort entering by `getBoundingClientRect().top` according to direction.
+    - Apply staggered inline `transitionDelay` and visible classes to entering elements.
+  - Cleanup observer and scroll listener on unmount.
+  - Return a `ref` to attach to the grid container.
+- `src/components/Projects.jsx`
+  - Import and use the new hook; e.g. `const gridRef = useStaggeredInView({...})` and `ref={gridRef}` on the grid wrapper.
+  - Ensure each card element has `className="project-card ...other classes..."`.
+  - Remove AOS attributes from the cards.
+  - Keep the cards’ existing Tailwind classes (rounded corners, shadows, hover behavior), only add the `project-card` selector and initial hidden classes if you choose (the hook will also ensure initial hidden state).
+- `src/App.jsx`
+  - **Do not change** the AOS init — keep `once:false` etc. AOS remains for other sections.
+
+Testing checklist for acceptance (Replit AI must verify):
+1. Open the page and scroll from top → Projects:
+   - When the first visible card(s) are **200px inside** the viewport, they animate in top-to-bottom order with visible stagger.
+2. Scroll further down past Projects, then scroll back up:
+   - When coming back up into Projects from below, the visible cards animate in bottom-to-top order (bottom-most visible first).
+3. If you quickly scroll up and down so some cards leave and re-enter:
+   - They **reset** when leaving and re-animate when re-entering.
+4. Confirm other sections (Hero/Skills/Services) still use AOS and are unaffected.
+5. Confirm no new npm packages added and Tailwind classes remain used for transitions.
+
+Implementation notes for Replit AI (do this exactly):
+- Use `rootMargin: '-200px 0px -200px 0px'` and `threshold: 0`.
+- Use inline `style.transitionDelay` to control stagger because it’s simple and reliable.
+- Use `element.classList.add` / `remove` to toggle Tailwind utility classes.
+- Ensure the hook is resilient to multiple mount/unmount cycles and disconnects the observer and scroll listener on cleanup.
+- Keep default `stagger` around `80-140` ms; choose 100ms if you must pick one.
+
+Deliverable:
+- Commit the new hook file and updated `Projects.jsx` to the same branch, and run the app to confirm the 4 acceptance tests above. Provide a short note confirming tests passed and list the final `rootMargin` and `stagger` values used.
+
+That’s it — implement exactly these instructions so the project cards animate when they are 200px inside the viewport, reset on exit, and stagger according to scroll direction. Do not change any other animations or add libraries.
