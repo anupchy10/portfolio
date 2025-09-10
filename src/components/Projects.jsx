@@ -3,6 +3,7 @@ import { HiEye, HiExternalLink } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import useInViewAnimation from "../hooks/useInViewAnimation";
 import useStaggeredInView from "../hooks/useStaggeredInView";
+import { assets } from '../../public/assets/assets';
 
 const Projects = () => {
   const titleRef = useInViewAnimation(
@@ -24,7 +25,7 @@ const Projects = () => {
       title: "Grocery E-Commerce Platform",
       description:
         "Fresh vegetables and groceries online store with product categories, shopping cart, and discount features. Clean design with excellent user experience.",
-      image: "/attached_assets/img1_1757396687815.png",
+      image: assets[2],
       tech: ["React", "Node.js", "MongoDB", "Stripe"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/grocery-platform",
@@ -34,7 +35,7 @@ const Projects = () => {
       title: "Jivorix Fashion Store",
       description:
         "Elegant fashion e-commerce website with sophisticated design, product catalogs, and seamless shopping experience for clothing and accessories.",
-      image: "/attached_assets/img2_1757396687805.png",
+      image: assets[3],
       tech: ["React", "Express", "PostgreSQL", "Payment Gateway"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/jivorix",
@@ -44,7 +45,7 @@ const Projects = () => {
       title: "Richard Hamrick Portfolio",
       description:
         "Professional dark-themed portfolio website showcasing web development skills, testimonials, and client work with modern UI/UX design.",
-      image: "/attached_assets/img3_1757396687807.png",
+      image: assets[4],
       tech: ["React", "Tailwind CSS", "Framer Motion", "TypeScript"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/richard",
@@ -54,7 +55,7 @@ const Projects = () => {
       title: "Property Real Estate Platform",
       description:
         "Modern real estate website with property listings, search functionality, and engaging design for finding suitable properties.",
-      image: "/attached_assets/img4_1757396687808.png",
+      image: assets[5],
       tech: ["React", "Node.js", "MongoDB", "Maps API", "Animations"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/real-estate",
@@ -64,7 +65,7 @@ const Projects = () => {
       title: "Corporate Business Website",
       description:
         "Professional corporate website with team sections, service offerings, and clean business-oriented design for driving growth.",
-      image: "/attached_assets/img5_1757396687810.png",
+      image: assets[6],
       tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Animations"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/prixima",
@@ -74,7 +75,7 @@ const Projects = () => {
       title: "Business Consulting Platform",
       description:
         "Modern business consulting website with service sections, expertise showcase, and professional design for better business insights.",
-      image: "/attached_assets/img6_1757396687812.png",
+      image: assets[7],
       tech: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/business-platform",
@@ -84,7 +85,7 @@ const Projects = () => {
       title: "Creative Portfolio Website",
       description:
         "Colorful and creative portfolio website with gradient backgrounds, skill showcase, and modern design for creative professionals.",
-      image: "/attached_assets/img7_1757396687813.png",
+      image: assets[8],
       tech: ["React", "CSS3", "Animations", "Responsive Design"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/ventura-outdoor-store",
@@ -94,7 +95,7 @@ const Projects = () => {
       title: "Ventura Outdoor Store",
       description:
         "Outdoor equipment e-commerce platform with camping gear, product categories, and adventure-focused design for outdoor enthusiasts.",
-      image: "/attached_assets/img8_1757396687814.png",
+      image: assets[9],
       tech: ["React", "Node.js", "MongoDB", "Payment Integration"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/ventura-outdoor-store",
@@ -104,7 +105,7 @@ const Projects = () => {
       title: "Hamro Bazar Marketplace",
       description:
         "Comprehensive online marketplace platform with multiple categories, user listings, and advanced search functionality for buying and selling.",
-      image: "/attached_assets/img9_1757396687815.png",
+      image: assets[10],
       tech: ["PHP", "MySQL", "JavaScript", "Payment Gateway"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/hamro-bazar",

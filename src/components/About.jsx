@@ -1,6 +1,7 @@
 import React from "react";
 import { HiBriefcase, HiCode, HiAcademicCap } from "react-icons/hi";
 import useInViewAnimation from "../hooks/useInViewAnimation";
+import about from '../../public/assets/about.jpg'
 
 const About = () => {
   // Animation refs for different sections
@@ -42,19 +43,21 @@ const About = () => {
           {/* Photo placeholder */}
           <div ref={imageRef} className="order-1 lg:order-1">
             <div className="relative">
-              <div className="w-full h-96 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-gray-700 dark:to-gray-600 rounded-2xl flex items-center justify-center shadow-2xl">
-                <div className="text-center">
-                  <div className="w-32 h-32 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-4xl font-bold text-white">A</span>
-                  </div>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    Professional Photo
-                  </p>
-                </div>
+              <div className="w-full h-96 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-gray-700 dark:to-gray-600 rounded-2xl flex items-center justify-center shadow-2xl overflow-hidden">
+                <img 
+                  src={about} 
+                  alt="About Anup - Software Engineer"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-blue-200 dark:bg-blue-800 rounded-full opacity-50"></div>
-              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-purple-200 dark:bg-purple-800 rounded-full opacity-50"></div>
+              {/* Decorative elements - Multi-layered with shadows and blur */}
+              <div className="absolute -top-10 -right-10 w-52 h-52 bg-blue-200 dark:bg-blue-500 rounded-full opacity-25 blur-xl shadow-2xl"></div>
+              <div className="absolute -top-8 -right-8 w-40 h-40 bg-blue-300 dark:bg-blue-600 rounded-full opacity-30 blur-lg shadow-xl"></div>
+              <div className="absolute -top-6 -right-6 w-28 h-28 bg-blue-400 dark:bg-blue-700 rounded-full opacity-35 blur-md shadow-lg"></div>
+              
+              <div className="absolute -bottom-12 -left-12 w-60 h-60 bg-purple-200 dark:bg-purple-500 rounded-full opacity-20 blur-2xl shadow-2xl"></div>
+              <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-purple-300 dark:bg-purple-600 rounded-full opacity-25 blur-xl shadow-xl"></div>
+              <div className="absolute -bottom-8 -left-8 w-36 h-36 bg-purple-400 dark:bg-purple-700 rounded-full opacity-30 blur-lg shadow-lg"></div>
             </div>
           </div>
 

@@ -2,9 +2,9 @@ import React from "react";
 import { HiArrowDown } from "react-icons/hi";
 import Typewriter from "./Typewriter";
 import useInViewAnimation from "../hooks/useInViewAnimation";
+import hero from '../../public/assets/hero.jpg';
 
 const Hero = () => {
-  // Animation refs for different sections
   const textSectionRef = useInViewAnimation(
     "animate-fade-right duration-1000 ease-out",
   );
@@ -15,27 +15,24 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 px-4 sm:px-6 lg:px-8 w-full overflow-x-hidden"
+      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 px-4 sm:px-6 lg:px-8 w-full overflow-x-hidden relative"
     >
-      <div className="max-w-7xl mx-auto w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          {/* Image Section - First on mobile, Right on desktop */}
-          <div
-            ref={imageSectionRef}
-            className="order-1 lg:order-2 flex justify-center lg:justify-end opacity-0"
-          >
+      <div className="max-w-7xl mx-auto w-full flex-grow flex items-center justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
+          <div ref={imageSectionRef} className="order-1 lg:order-2 flex justify-center lg:justify-end opacity-0">
             <div className="relative">
-              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 p-1 shadow-2xl">
+              <div className="w-72 h-72 md:w-80 md:h-80 lg:w-[28rem] lg:h-[28rem] rounded-full bg-gradient-to-r from-blue-600 to-purple-600 p-1 shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 animate-float">
                 <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
-                  {/* Placeholder for your image - replace with actual image */}
-                  <div className="w-full h-full bg-gradient-to-br from-gray-300 to-gray-400 dark:from-gray-600 dark:to-gray-700 flex items-center justify-center">
-                    <span className="text-6xl lg:text-7xl">👨‍💻</span>
-                  </div>
+                  <img 
+                    src={hero}
+                    alt="Anup - Full Stack Developer"
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                  />
                 </div>
               </div>
               {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-blue-500 opacity-20 rounded-full blur-xl animate-pulse"></div>
-              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-purple-500 opacity-20 rounded-full blur-xl animate-pulse delay-1000"></div>
+              <div className="absolute -top-6 -right-6 w-40 h-40 bg-blue-500 opacity-20 rounded-full blur-xl animate-pulse"></div>
+              <div className="absolute -bottom-8 -left-8 w-48 h-48 bg-purple-500 opacity-20 rounded-full blur-xl animate-pulse delay-1000"></div>
             </div>
           </div>
 
@@ -45,8 +42,8 @@ const Hero = () => {
             className="order-2 lg:order-1 text-center lg:text-left opacity-0"
           >
             <div className="mb-8">
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
-                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-center lg:text-left">
+                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent whitespace-nowrap inline-block">
                   <Typewriter
                     words={[
                       "Hello, I'm Anup",
@@ -88,10 +85,11 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Animated scroll indicator - centered for all screens */}
-        <div className="flex justify-center mt-12 animate-bounce">
-          <HiArrowDown className="h-6 w-6 text-gray-400 dark:text-gray-600" />
-        </div>
+      </div>
+      
+      {/* Animated scroll indicator - positioned at bottom */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <HiArrowDown className="h-6 w-6 text-gray-400 dark:text-gray-600" />
       </div>
     </section>
   );
