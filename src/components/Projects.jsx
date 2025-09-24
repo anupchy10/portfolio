@@ -85,7 +85,7 @@ const Projects = () => {
       title: "Creative Portfolio Website",
       description:
         "Colorful and creative portfolio website with gradient backgrounds, skill showcase, and modern design for creative professionals.",
-      image: assets[8],
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_7.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzcucG5nIiwiaWF0IjoxNzU4Njg3NjI4LCJleHAiOjQ4ODA3NTE2Mjh9.B-itYVnhI128AhkXBOL3ALSh9Xv42nSaUe-mPPlrUSg",
       tech: ["React", "CSS3", "Animations", "Responsive Design"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/ventura-outdoor-store",
