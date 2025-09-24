@@ -65,7 +65,7 @@ const Projects = () => {
       title: "Corporate Business Website",
       description:
         "Professional corporate website with team sections, service offerings, and clean business-oriented design for driving growth.",
-      image: assets[6],
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_5.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzUucG5nIiwiaWF0IjoxNzU4Njg3NTE0LCJleHAiOjQ4ODA3NTE1MTR9.DUFxZFjSpX-SdCtekTSZM_n-6rPrdyeu6CEeRNu3RtI",
       tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Animations"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/prixima",
