@@ -1,7 +1,6 @@
 import React from "react";
 import { HiBriefcase, HiCode, HiAcademicCap } from "react-icons/hi";
 import useInViewAnimation from "../hooks/useInViewAnimation";
-import about from '../../public/assets/about.jpg'
 
 const About = () => {
   // Animation refs for different sections
