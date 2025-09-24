@@ -3,7 +3,6 @@ import { HiEye, HiExternalLink } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import useInViewAnimation from "../hooks/useInViewAnimation";
 import useStaggeredInView from "../hooks/useStaggeredInView";
-import { assets } from '../../public/assets/assets';
 
 const Projects = () => {
   const titleRef = useInViewAnimation(
@@ -105,7 +104,7 @@ const Projects = () => {
       title: "Hamro Bazar Marketplace",
       description:
         "Comprehensive online marketplace platform with multiple categories, user listings, and advanced search functionality for buying and selling.",
-      image: assets[10],
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_9.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzkucG5nIiwiaWF0IjoxNzU4Njg3NzUyLCJleHAiOjQ4ODA3NTE3NTJ9.jeW9kwNsGmsLXbU6bxvxa_h3HiZ-t5P80DaJILcRW20",
       tech: ["PHP", "MySQL", "JavaScript", "Payment Gateway"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/hamro-bazar",
