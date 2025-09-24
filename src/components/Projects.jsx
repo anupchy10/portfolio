@@ -75,7 +75,7 @@ const Projects = () => {
       title: "Business Consulting Platform",
       description:
         "Modern business consulting website with service sections, expertise showcase, and professional design for better business insights.",
-      image: assets[7],
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_6.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzYucG5nIiwiaWF0IjoxNzU4Njg3NTgwLCJleHAiOjQ4ODA3NTE1ODB9.11OVlhVefc2AZAgOSnyxKjFjmZO6qkrb7-2Kl2UVsrs",
       tech: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/business-platform",
