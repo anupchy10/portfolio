@@ -55,7 +55,7 @@ const Projects = () => {
       title: "Property Real Estate Platform",
       description:
         "Modern real estate website with property listings, search functionality, and engaging design for finding suitable properties.",
-      image: assets[5],
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_4.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzQucG5nIiwiaWF0IjoxNzU4Njg3NDU4LCJleHAiOjQ4ODA3NTE0NTh9.SMhS2u0NqSdSKHOJiZOig1-u_65OyTIzK3oLW0BhDhY",
       tech: ["React", "Node.js", "MongoDB", "Maps API", "Animations"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/real-estate",
