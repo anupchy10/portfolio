@@ -2,7 +2,6 @@ import React from "react";
 import { HiArrowDown } from "react-icons/hi";
 import Typewriter from "./Typewriter";
 import useInViewAnimation from "../hooks/useInViewAnimation";
-import hero from '../../public/assets/hero.jpg';
 
 const Hero = () => {
   const textSectionRef = useInViewAnimation(
