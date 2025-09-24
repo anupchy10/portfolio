@@ -25,7 +25,7 @@ const Projects = () => {
       title: "Grocery E-Commerce Platform",
       description:
         "Fresh vegetables and groceries online store with product categories, shopping cart, and discount features. Clean design with excellent user experience.",
-      image: assets[2],
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_1.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzEucG5nIiwiaWF0IjoxNzU4Njg3MzA0LCJleHAiOjQ4ODA3NTEzMDR9.qGC2tebpz8hpm4lEEVxiV691pjXI3ne6e1WeY5dxHfI",
       tech: ["React", "Node.js", "MongoDB", "Stripe"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/grocery-platform",
