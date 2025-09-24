@@ -1,4 +1,4 @@
-import React from "react";
+limport React from "react";
 import { HiEye, HiExternalLink } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import useInViewAnimation from "../hooks/useInViewAnimation";
@@ -45,7 +45,7 @@ const Projects = () => {
       title: "Richard Hamrick Portfolio",
       description:
         "Professional dark-themed portfolio website showcasing web development skills, testimonials, and client work with modern UI/UX design.",
-      image: assets[4],
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_3.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzMucG5nIiwiaWF0IjoxNzU4Njg3NDE0LCJleHAiOjQ4ODA3NTE0MTR9.Y6CgRAqUOonOcpRgkoeB_64IuF0ISncQIPcHVJTrM6s",
       tech: ["React", "Tailwind CSS", "Framer Motion", "TypeScript"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/richard",
