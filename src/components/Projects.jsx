@@ -35,7 +35,7 @@ const Projects = () => {
       title: "Jivorix Fashion Store",
       description:
         "Elegant fashion e-commerce website with sophisticated design, product catalogs, and seamless shopping experience for clothing and accessories.",
-      image: assets[3],
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzIucG5nIiwiaWF0IjoxNzU4Njg3MzQ2LCJleHAiOjQ4ODA3NTEzNDZ9.dwD7PhryBtOUWTiPXK9zpuImWNQBbyqfAWlCJqiQi1I",
       tech: ["React", "Express", "PostgreSQL", "Payment Gateway"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/jivorix",
