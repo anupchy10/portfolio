@@ -95,7 +95,7 @@ const Projects = () => {
       title: "Ventura Outdoor Store",
       description:
         "Outdoor equipment e-commerce platform with camping gear, product categories, and adventure-focused design for outdoor enthusiasts.",
-      image: assets[9],
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_8.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzgucG5nIiwiaWF0IjoxNzU4Njg3Njk1LCJleHAiOjQ4ODA3NTE2OTV9.lASsZSQHWCgYHKTrphtU4X1grZBUNv875fnxBhi_PGA",
       tech: ["React", "Node.js", "MongoDB", "Payment Integration"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/ventura-outdoor-store",
