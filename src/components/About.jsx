@@ -44,7 +44,7 @@ const About = () => {
             <div className="relative">
               <div className="w-full h-96 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-gray-700 dark:to-gray-600 rounded-2xl flex items-center justify-center shadow-2xl overflow-hidden">
                 <img 
-                  src="https://i.postimg.cc/cCX4dmvF/about.jpg" 
+                  src="https://i.postimg.cc/J4d2F4k2/about.jpg" 
                   alt="About Anup - Software Engineer"
                   className="w-full h-full object-cover"
                 />
