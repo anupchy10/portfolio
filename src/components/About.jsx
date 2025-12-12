@@ -44,7 +44,7 @@ const About = () => {
             <div className="relative">
               <div className="w-full h-96 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-gray-700 dark:to-gray-600 rounded-2xl flex items-center justify-center shadow-2xl overflow-hidden">
                 <img 
-                  src="https://i.postimg.cc/J4d2F4k2/about.jpg" 
+                  src="https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/about.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvYWJvdXQuanBnIiwiaWF0IjoxNzY1NTUxMzA3LCJleHAiOjgwNzI3NTEzMDd9.r4qaeDpSMPSCdo_bl9aRo477JG842x5FM0jSY9j58vo" 
                   alt="About Anup - Software Engineer"
                   className="w-full h-full object-cover"
                 />
