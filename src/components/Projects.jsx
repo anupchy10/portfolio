@@ -34,7 +34,7 @@ const Projects = () => {
       title: "Jivorix Fashion Store",
       description:
         "Elegant fashion e-commerce website with sophisticated design, product catalogs, and seamless shopping experience for clothing and accessories.",
-      image: "https://i.postimg.cc/XYZ7094T/img-2.png",
+      image: "https://i.postimg.cc/vmYywm89/img_2.png",
       tech: ["React", "Express", "PostgreSQL", "Payment Gateway"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/jivorix",
