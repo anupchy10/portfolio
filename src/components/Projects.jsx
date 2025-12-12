@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Grocery E-Commerce Platform",
       description:
         "Fresh vegetables and groceries online store with product categories, shopping cart, and discount features. Clean design with excellent user experience.",
-      image: "https://i.postimg.cc/W45vNPt3/img_1.png",
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_1.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzEucG5nIiwiaWF0IjoxNzY1NTUwNDQ5LCJleHAiOjgwNzI3NTA0NDl9.WXWUXMYYU0sS_O9uS4NTwPk6lm5tt0SpVBjRD1ROOQ0",
       tech: ["React", "Node.js", "MongoDB", "Stripe"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/grocery-platform",
@@ -34,7 +34,7 @@ const Projects = () => {
       title: "Jivorix Fashion Store",
       description:
         "Elegant fashion e-commerce website with sophisticated design, product catalogs, and seamless shopping experience for clothing and accessories.",
-      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzIucG5nIiwiaWF0IjoxNzY1NTUwMDUzLCJleHAiOjgwNzI3NTAwNTN9.r3KwnHNasz9qN3nemmDmUVT_lJsKqsbnTJFdl9mvOzU",
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzIucG5nIiwiaWF0IjoxNzY1NTUxMDc0LCJleHAiOjgwNzI3NTEwNzR9._R0M2DdSXDazKiR_4gD20jzEtxROenItARZBrbRJYzk",
       tech: ["React", "Express", "PostgreSQL", "Payment Gateway"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/jivorix",
@@ -44,7 +44,7 @@ const Projects = () => {
       title: "Richard Hamrick Portfolio",
       description:
         "Professional dark-themed portfolio website showcasing web development skills, testimonials, and client work with modern UI/UX design.",
-      image: "https://i.postimg.cc/BndZZtvS/img-3.png",
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_3.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzMucG5nIiwiaWF0IjoxNzY1NTUxMTAwLCJleHAiOjgwNzI3NTExMDB9.LhwknLcCnwJ97fSSmb3XJ6Y7skOYyhlFf_yEvnl85V8",
       tech: ["React", "Tailwind CSS", "Framer Motion", "TypeScript"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/richard",
@@ -54,7 +54,7 @@ const Projects = () => {
       title: "Property Real Estate Platform",
       description:
         "Modern real estate website with property listings, search functionality, and engaging design for finding suitable properties.",
-      image: "https://i.postimg.cc/B63qDyDB/img-4.png",
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_4.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzQucG5nIiwiaWF0IjoxNzY1NTUxMTE2LCJleHAiOjgwNzI3NTExMTZ9.FYZz2x53y_CuTCBFfFk3RhOQvXH10tfzya_WWZHlb00",
       tech: ["React", "Node.js", "MongoDB", "Maps API", "Animations"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/real-estate",
@@ -64,7 +64,7 @@ const Projects = () => {
       title: "Corporate Business Website",
       description:
         "Professional corporate website with team sections, service offerings, and clean business-oriented design for driving growth.",
-      image: "https://i.postimg.cc/hj0K0r1S/img-5.png",
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_5.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzUucG5nIiwiaWF0IjoxNzY1NTUxMTQ3LCJleHAiOjgwNzI3NTExNDd9.QL9oRgdTyK5LoVq4y6DQKJjsGyDAaUa_QdzcVC5gUjE",
       tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Animations"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/prixima",
@@ -74,7 +74,7 @@ const Projects = () => {
       title: "Business Consulting Platform",
       description:
         "Modern business consulting website with service sections, expertise showcase, and professional design for better business insights.",
-      image: "https://i.postimg.cc/qRGpGLx3/img-6.png",
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_6.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzYucG5nIiwiaWF0IjoxNzY1NTUxMTcxLCJleHAiOjgwNzI3NTExNzF9.b8oXQXTAY6SMOtbi9tB13cm2ZhWFwScUJ7uDMaCDhq8",
       tech: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/business-platform",
@@ -84,7 +84,7 @@ const Projects = () => {
       title: "Creative Portfolio Website",
       description:
         "Colorful and creative portfolio website with gradient backgrounds, skill showcase, and modern design for creative professionals.",
-      image: "https://i.postimg.cc/Hnsdvy6k/img-7.png",
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_7.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzcucG5nIiwiaWF0IjoxNzY1NTUxMTk4LCJleHAiOjgwNzI3NTExOTh9.oy37cnMmRAPJhI41sLuSPFWqWei5GjCMUEZoqPciEG4",
       tech: ["React", "CSS3", "Animations", "Responsive Design"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/ventura-outdoor-store",
@@ -94,7 +94,7 @@ const Projects = () => {
       title: "Ventura Outdoor Store",
       description:
         "Outdoor equipment e-commerce platform with camping gear, product categories, and adventure-focused design for outdoor enthusiasts.",
-      image: "https://i.postimg.cc/mgp72Yvm/img-8.png",
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_8.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzgucG5nIiwiaWF0IjoxNzY1NTUxMjI0LCJleHAiOjgwNzI3NTEyMjR9.9hgoQM0gSpxnyrjc1sNm3wf9v_7c8ntmvINlnKWRQ7A",
       tech: ["React", "Node.js", "MongoDB", "Payment Integration"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/ventura-outdoor-store",
@@ -104,7 +104,7 @@ const Projects = () => {
       title: "Hamro Bazar Marketplace",
       description:
         "Comprehensive online marketplace platform with multiple categories, user listings, and advanced search functionality for buying and selling.",
-      image: "https://i.postimg.cc/zvX82gxV/img-9.png",
+      image: "https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/img_9.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaW1nXzkucG5nIiwiaWF0IjoxNzY1NTUxMjUwLCJleHAiOjgwNzI3NTEyNTB9.MvEyOk063DLiQQgrSb3DbaXyW-XZSuCkXKXSDZZ849I",
       tech: ["PHP", "MySQL", "JavaScript", "Payment Gateway"],
       liveUrl: "#",
       githubUrl: "https://github.com/anupchy10/hamro-bazar",
