@@ -23,7 +23,7 @@ const Hero = () => {
               <div className="w-72 h-72 md:w-80 md:h-80 lg:w-[28rem] lg:h-[28rem] rounded-full bg-gradient-to-r from-blue-600 to-purple-600 p-1 shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 animate-float">
                 <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
                   <img 
-                    src="https://i.postimg.cc/0QWYNrxZ/hero.jpg"
+                    src="https://lfxcumwykxjspkzuxnsu.supabase.co/storage/v1/object/sign/Assets/hero.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zNGZhZmI2My1hOGRjLTQzMjctYmUwYS1kZGM5YTg5NmQ1ZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBc3NldHMvaGVyby5qcGciLCJpYXQiOjE3NjU1NTEzODUsImV4cCI6ODA3Mjc1MTM4NX0.8qugF7lb1GnOjrNEW6Dsmmgo_2aQ8HVz_FxZvIO2UPg"
                     alt="Anup - Full Stack Developer"
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                   />
